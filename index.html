@@ -22,14 +22,24 @@
             width: 80%;
             margin: 0 auto;
         }
-        .current-post {
+        .post {
             background-color: white;
             padding: 20px;
             margin-top: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        .previous-posts {
-            margin-top: 40px;
+        .post h2 {
+            font-size: 2em;
+            color: #6a0dad;
+        }
+        .post p {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .decorative {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            text-align: center;
         }
         .previous-posts h2 {
             font-size: 2em;
@@ -45,9 +55,7 @@
         .previous-posts ul li a {
             text-decoration: none;
             color: #6a0dad;
-        }
-        .whistledown-doc {
-            margin-top: 40px;
+            font-size: 1.2em;
         }
     </style>
 </head>
@@ -58,27 +66,19 @@
             The Whistledown Chronicles
         </div>
 
-        <div class="current-post">
-            <h2>Current Post</h2>
-            <p>
-                Welcome to the latest gossip from high society. Here’s where you’ll find all the latest updates and commentary on the doings of the town. Stay tuned for more revelations.
-            </p>
+        <!-- Current Post -->
+        <div class="post">
+            <h2>Today's Featured Post</h2>
+            <a href="whistledown-post.html">Lady Whistledown’s Society Papers</a>
         </div>
 
+        <!-- Previous Posts Section -->
         <div class="previous-posts">
             <h2>Previous Posts</h2>
             <ul>
-                <li><a href="#">Post 1: The Duchess's Grand Ball</a></li>
-                <li><a href="#">Post 2: Scandal in the Park</a></li>
-                <li><a href="#">Post 3: A Mysterious Engagement</a></li>
+                <li><a href="#">Post 1: Event Gossip</a></li>
+                <li><a href="#">Post 2: New Arrivals</a></li>
             </ul>
-        </div>
-
-        <div class="whistledown-doc">
-            <h2>About Lady Whistledown</h2>
-            <p>
-                Curious to learn more about Lady Whistledown? <a href="whistledown.pdf" target="_blank">Read the full document here</a>.
-            </p>
         </div>
     </div>
 
