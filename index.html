@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Whistledown Chronicles</title>
+
+    <!-- Import Google Fonts for a more elegant, historical look -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
     <style>
         body {
-            font-family: 'Georgia', serif;
+            font-family: 'Merriweather', serif;
             background-color: #f5f5f5;
             margin: 0;
             padding: 40px;
             color: #333;
         }
         .title {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4em;
             text-align: center;
-            font-size: 3.5em;
-            margin-top: 10px;
             color: #6a0dad;
             border-bottom: 2px solid #6a0dad;
             padding-bottom: 10px;
@@ -23,15 +27,17 @@
         .container {
             width: 85%;
             margin: 0 auto;
+            border: 2px solid #6a0dad;
+            padding: 40px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
         .post {
-            background-color: white;
             padding: 20px;
             margin-top: 40px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
         }
         .post h2 {
-            font-size: 1.8em;
+            font-size: 2em;
             color: #6a0dad;
         }
         .post p {
@@ -44,6 +50,7 @@
         .previous-posts h2 {
             font-size: 2em;
             color: #6a0dad;
+            font-family: 'Dancing Script', cursive;
         }
         .previous-posts ul {
             list-style-type: none;
@@ -65,14 +72,27 @@
             color: #6a0dad;
             text-decoration: none;
         }
+        /* Adding decorative image styling */
+        .decorative-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px; /* Adjust width to fit the design */
+            height: auto;
+        }
     </style>
 </head>
 <body>
 
+    <!-- Container to hold all page elements -->
     <div class="container">
+        <!-- Title section with large cursive font -->
         <div class="title">
-            The Whistledown Chronicles
+            Lady Whistledown's Society Papers
         </div>
+
+        <!-- Add a decorative image -->
+        <img src="resizer.avif" alt="Lady Whistledown Image" class="decorative-image">
 
         <!-- Current Post Section -->
         <div class="post">
