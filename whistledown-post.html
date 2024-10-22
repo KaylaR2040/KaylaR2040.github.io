@@ -1,108 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lady Whistledown Society Papers</title>
-    
-    <!-- Import Google Fonts for fancy typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    
-    <style>
-        /* Styling for the body and fonts */
-        body {
-            font-family: 'Georgia', serif;
-            line-height: 1.6;
-        }
+    <title>Lady Whistledown's Society Papers</title>
 
-        /* Custom styles for Lady Whistledown fonts */
-        .whistledown-title {
-            text-align: center;
-        }
+    <!-- Google Fonts for elegant look -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 
-        .whistledown-title h1 {
-            font-family: 'Dancing Script', cursive;
-            font-size: 48px;
-            margin-bottom: 0;
-        }
-
-        .whistledown-title h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 28px;
-            margin-top: 0;
-            font-weight: normal;
-            letter-spacing: 2px;
-        }
-
-        /* Line break styling */
-        hr {
-            border: none;
-            height: 2px;
-            background-color: black;
-            margin: 20px auto;
-            width: 70%; /* Make the line wider */
-        }
-
-        /* Styling for the image at the top */
-        .header-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 150px; /* Adjust the size if needed */
-        }
-
-        /* Container for two columns */
-        .container {
-            display: flex;
-            justify-content: space-between;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        /* Column styling */
-        .column {
-            flex: 1;
-            padding: 10px;
-        }
-
-        /* Text Justification */
-        p {
-            text-align: justify;
-        }
-    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="whistledown-post.html">The Papers</a></li>
+            <li><a href="events.html">Society Events</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
 
-    <!-- Header Section -->
-    <img src="resizer.avif" alt="Lady Whistledown Logo" class="header-image">    
+    <!-- Main Content Section -->
+    <section class="post-section">
+        <header class="post-header">
+            <h1>Lady Whistledown’s Society Papers</h1>
+            <p class="subtitle">Extraordinary People... Extraordinary News...</p>
+        </header>
 
-    <div class="whistledown-title">
-        <h1>Lady Whistledown's</h1>
-        <h2>SOCIETY PAPERS</h2>
-        <hr>
-        <h2>Extraordinary People... Extraordinary News...</h2>
-    </div>
+        <!-- Newspaper-like layout -->
+        <div class="newspaper-layout">
+            <article class="column">
+                <h2>Dearest Reader,</h2>
+                <p>
+                    Whispers abound across campus as the eagerly awaited Big/Little Reveal for our beloved Phi Sigma Rho sorority draws near. Anticipation fills the air, and the sisters are aflutter with excitement, preparing to unveil new bonds that will surely last a lifetime. From the carefully curated baskets to the special events planned, it is no wonder that Big/Little Reveal has captured the hearts and minds of many.
+                </p>
+                <p>
+                    Our sisters have been spotted busily decorating, assembling goodies, and adding heartfelt touches to their reveal preparations. While some work tirelessly behind the scenes, others have found creative ways to balance these joyful duties with their academic pursuits, all while whispers of new pairings spread like wildfire.
+                </p>
+                <h3>Page Farms Retreat</h3>
+                <p>
+                    Page Farms hosted the annual sisterhood retreat, where hayrides and tractor-pulled cow carts added a touch of whimsy to the weekend. Not to be missed was the laughter shared during the cow rides, as the sisters bonded over the bumpy ride and autumn air.
+                </p>
+                <p>... and more news to come!</p>
+            </article>
 
-    <!-- Container for two columns -->
-    <div class="container">
-        <div class="column">
-            <p><strong>Dearest Reader,</strong></p>
-            <p>Whispers are spreading across campus as the much-anticipated Big/Little Day approaches, stirring excitement in the hearts of many. Speculation fills the air, along with the thrill of new connections waiting to be unveiled. Your devoted Lady Whistledown has it on good authority that our sisters are eagerly preparing for the grand reveal, ready to shower their littles with affection and carefully curated baskets.</p>
-
-            <p>But that is not the only thing on the minds of our beloved sisters. Exam season has made its formidable entrance, casting a shadow over the recent fall break. Some took the opportunity for adventure, traveling to faraway places, while others chose the comfort of home, spending precious time with their families. Wherever they went, the break seems to have revived the spirits of our Phi Sigma Rho sisters, just in time for the exciting days ahead.</p>
+            <!-- Column with a sidebar for extra stories -->
+            <aside class="column sidebar">
+                <img src="resizer.avif" alt="Lady Whistledown Portrait" class="post-image">
+                <h3>Upcoming Events</h3>
+                <p><strong>Big/Little Reveal</strong><br> Lampe 222, Oct 26, 10:00 AM - 12:00 PM</p>
+                <p><strong>Initiation Practice</strong><br> 1911 Building Room 111, Oct 24, 6:00 PM - 8:00 PM</p>
+                <h3>Socials & More</h3>
+                <p>Prepare for the event of the season. Keep your ears open for who will be paired and what surprises are in store for our beloved Phi Sigma Rho sisters.</p>
+            </aside>
         </div>
 
-        <div class="column">
-            <p>Despite the busy times, whispers have reached Lady Whistledown that several members of Phi Sigma Rho have been skillfully balancing fun and academic pursuits, all while keeping an eye on the upcoming Big/Little festivities.</p>
+        <hr class="decorative-break">
 
-            <p>With such a flurry of activity, one can only wonder: who will be matched with whom as the perfect pair? Rest assured, dear sisters, your anonymous correspondent is keeping her ear to the ground and her quill at the ready, for there is much to be revealed soon.</p>
+        <!-- Second part of the letter -->
+        <div class="newspaper-layout">
+            <article class="column">
+                <h3>More from Lady Whistledown</h3>
+                <p>
+                    In more recent happenings, chatter continues about social gatherings and study sessions alike. The Icepack event sparked excitement, and a certain LinkedIn profile photo debate has kept our sisters entertained. Yes, even in the midst of preparations and exams, the conversations flow effortlessly—about everything from professional headshots to the upcoming initiation practices.
+                </p>
+                <p>
+                    But alas, it is the impending Big/Little Reveal that captivates our hearts most. Who will be matched with whom, you ask? Only time will tell. But rest assured, as the day draws near, your devoted Lady Whistledown shall keep her ear to the ground and quill at the ready, eager to bring you the latest news as soon as it unfolds.
+                </p>
+                <p><strong>Yours in intrigue and admiration,<br>Lady Whistledown</strong></p>
+            </article>
 
-            <p>Until then, I leave you with this: prepare your brightest smiles and thoughtful gifts, for the event of the season is nearly upon us, and soon all will be unveiled!</p>
-
-            <p><strong>Yours in intrigue and admiration,</strong><br><i>Lady Whistledown</i></p>
+            <aside class="column sidebar">
+                <h3>Upcoming: Odera’s Big/Little Reveal</h3>
+                <p>All eyes are on Odera. What will her Big reveal look like? Will it be sweet and sentimental or playful and fun? No matter the theme, this is a match made in sisterhood heaven. Keep your cameras ready!</p>
+            </aside>
         </div>
-    </div>
+    </section>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Lady Whistledown Society Papers. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
 </body>
+
 </html>

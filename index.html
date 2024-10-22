@@ -1,123 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Whistledown Chronicles</title>
+    <title>Lady Whistledown's Society Papers</title>
 
-    <!-- Import Google Fonts for a more elegant, historical look -->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Import Google Fonts for historical, elegant look -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 
-    <style>
-        body {
-            font-family: 'Merriweather', serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 40px;
-            color: #333;
-        }
-        .title {
-            font-family: 'Dancing Script', cursive;
-            font-size: 4em;
-            text-align: center;
-            color: #6a0dad;
-            border-bottom: 2px solid #6a0dad;
-            padding-bottom: 10px;
-        }
-        .container {
-            width: 85%;
-            margin: 0 auto;
-            border: 2px solid #6a0dad;
-            padding: 40px;
-            background-color: white;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
-        }
-        .post {
-            padding: 20px;
-            margin-top: 40px;
-        }
-        .post h2 {
-            font-size: 2em;
-            color: #6a0dad;
-        }
-        .post p {
-            font-size: 1.3em;
-            color: #333;
-        }
-        .previous-posts {
-            margin-top: 50px;
-        }
-        .previous-posts h2 {
-            font-size: 2em;
-            color: #6a0dad;
-            font-family: 'Dancing Script', cursive;
-        }
-        .previous-posts ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .previous-posts ul li {
-            padding: 10px 0;
-        }
-        .previous-posts ul li a {
-            text-decoration: none;
-            color: #6a0dad;
-            font-size: 1.2em;
-        }
-        .about {
-            margin-top: 50px;
-            font-size: 1.4em;
-        }
-        .about a {
-            color: #6a0dad;
-            text-decoration: none;
-        }
-        /* Adding decorative image styling */
-        .decorative-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 200px; /* Adjust width to fit the design */
-            height: auto;
-        }
-    </style>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="whistledown-post.html">The Papers</a></li>
+            <li><a href="events.html">Society Events</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
 
-    <!-- Container to hold all page elements -->
-    <div class="container">
-        <!-- Title section with large cursive font -->
-        <div class="title">
-            Lady Whistledown's Society Papers
+    <!-- Hero image section -->
+    <header class="hero-section">
+        <img src="BallroomGrand.jpg" alt="Elegant Ballroom Scene" class="hero-image">
+    </header>
+
+    <!-- Main Title Section -->
+    <div class="title-section">
+        <h1>Lady Whistledown's Society Papers</h1>
+        <p class="subtitle">Inspired by Bridgerton</p>
+        <p class="intro-text">
+            Welcome to the elegant world of Lady Whistledown, where the latest gossip and scandals are revealed in high-society style.
+        </p>
+    </div>
+
+    <!-- Countdown timer -->
+    <div class="timer">
+        <h3>Next Paper Release In:</h3>
+        <div id="countdown">3 days 14 hours 20 minutes</div>
+    </div>
+
+    <!-- Featured and Previous Posts Section -->
+    <div class="content-section">
+        <div class="featured-post">
+            <h2>Featured Post</h2>
+            <a href="whistledown-post.html" class="featured-link">
+                <img src="BigLittle.jp2" alt="Big Little Day Whispers" class="post-image">
+                <p>"Big/Little Day Whispers"</p>
+            </a>
         </div>
 
-        <!-- Add a decorative image -->
-        <img src="resizer.avif" alt="Lady Whistledown Image" class="decorative-image">
-
-        <!-- Current Post Section -->
-        <div class="post">
-            <h2>Current Post: Lady Whistledown’s Society Papers</h2>
-            <p>
-                <a href="whistledown-post.html">Click here to read today's featured post: "Big/Little Day Whispers"</a>
-            </p>
-        </div>
-
-        <!-- Previous Posts Section -->
         <div class="previous-posts">
             <h2>Previous Posts</h2>
-            <ul>
-                <li><a href="#">Post 1: The Duchess's Grand Ball</a></li>
-                <li><a href="#">Post 2: Scandal in the Park</a></li>
-                <li><a href="#">Post 3: A Mysterious Engagement</a></li>
+            <ul class="post-list">
+                <li><a href="#">The Duchess's Grand Ball</a></li>
+                <li><a href="#">Scandal in the Park</a></li>
+                <li><a href="#">A Mysterious Engagement</a></li>
             </ul>
-        </div>
-
-        <!-- About Section -->
-        <div class="about">
-            <h2>About Lady Whistledown</h2>
-            <p>Curious to learn more about Lady Whistledown? <a href="whistledown.pdf" target="_blank">Read the full document here.</a></p>
         </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Lady Whistledown Society Papers. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for countdown timer -->
+    <script src="scripts.js"></script>
 </body>
+
 </html>
