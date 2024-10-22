@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #faf8f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+.navbar {
+    list-style-type: none;
+    background-color: #f4e8e4;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #6a0dad;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    color: #6a0dad;
+    font-size: 1.2em;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+    padding: 40px 60px;
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 40px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d4cec3;
+}
+
+/* About Header */
+.about-header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #6a0dad;
+}
+
+.about-header .title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: #6a0dad;
+}
+
+.about-header .subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #666;
+}
+
+/* About Content */
+.about-content {
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.about-content article p {
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Closing text styling */
+.closing {
+    font-size: 1.3em;
+    font-family: 'Dancing Script', cursive;
+    text-align: right;
+    color: #6a0dad;
+}
+
+/* About Image */
+.about-image {
+    display: block;
+    margin: 40px auto;
+    width: 80%;
+    border: 3px solid #6a0dad;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4e8e4;
+    color: #666;
+    font-family: 'Playfair Display', serif;
+}
